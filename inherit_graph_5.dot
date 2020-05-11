@@ -1,0 +1,29 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="IShape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classIShape.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Shape\< Derived \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classShape.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Shape\< Circle \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classShape.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Circle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCircle.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Shape\< ColoredShape \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classShape.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ColoredShape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classColoredShape.html"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Shape\< CompoundShape \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classShape.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="CompoundShape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCompoundShape.html"];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Shape\< Dot \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classShape.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Dot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDot.html"];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Shape\< Line \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classShape.html"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Line",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classLine.html"];
+}
